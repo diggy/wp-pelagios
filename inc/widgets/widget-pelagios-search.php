@@ -28,7 +28,7 @@ class Wp_Pelagios_Search_Widget extends WP_Widget
 		$widget_ops = array( 'classname' => $this->pelagios_widget_cssclass, 'description' => $this->pelagios_widget_description );
 		
 		/* Create the widget. */
-		$this->WP_Widget('wp_pelagios_search', $this->pelagios_widget_name, $widget_ops);
+		parent::__construct('wp_pelagios_search', $this->pelagios_widget_name, $widget_ops);
 	}
 	/** @see WP_Widget */
 	function widget( $args, $instance )

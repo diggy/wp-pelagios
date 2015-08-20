@@ -5,7 +5,7 @@
 Plugin Name: Pelagios Widgets for WordPress
 Plugin URI: http://peterherrel.com/wordpress/plugins/wp-pelagios
 Description: The Pelagios widgets are widgets that you can embed on a web page to display relationships between places and items in ancient history collections. The information displayed originates from museums, research institutes, universities and projects that are part of Pelagios, and includes details about these items and maps showing associated locations.
-Version: 0.2.0
+Version: 0.2.1
 Author: Peter J. Herrel
 Author URI: http://peterherrel.com/
 License: GPL3
@@ -54,7 +54,7 @@ if( ! class_exists( 'Wp_Pelagios' ) )
 class Wp_Pelagios
 {
     // vars
-    public $version         = '0.2.0';
+    public $version         = '0.2.1';
     public $version_wp      = '3.9';
     public $version_req_js  = '2.0.4';
     public $plugin_dir_url  = '';

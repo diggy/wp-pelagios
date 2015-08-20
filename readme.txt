@@ -3,8 +3,8 @@ Contributors: donutz
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WAY79HJWYKPQE
 Tags: links, data, linked data, geo, semantic, lawdi, ancient world, history, ancient history, science, pelagios, widgets
 Requires at least: 3.9
-Tested up to: 4.2.2
-Stable tag: 0.2.0
+Tested up to: 4.3
+Stable tag: 0.2.1
 License: GPLv3
 
 The Pelagios widgets are small embeddable Javascript applications that allow users of your site to access ancient history data from Pelagios partners.
@@ -82,6 +82,9 @@ Checkout and contribute to the plugin source code on [GitHub](https://github.com
 
 == Changelog ==
 
+= 0.2.1 - 20/08/2015 =
+* PHP5 style constructor
+
 = 0.2.0 - 09/05/2015 =
 * code cleanup
 * pelagios JS update
@@ -92,6 +95,9 @@ Checkout and contribute to the plugin source code on [GitHub](https://github.com
 * Initial release 0.1.1
 
 == Upgrade Notice ==
+
+= 0.2.1 =
+* Minor update, WP 4.3 compat
 
 = 0.1.1 =
 * version 0.1.1
